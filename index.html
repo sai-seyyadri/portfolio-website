@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9570d39f23.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/sai_seyyadri_logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#portfolio">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Student</p>
+          <h1>
+            Hi, I'm <span>Sai Seyyadri,</span> a student at the University of
+            Maryland, College Park <br />
+            studying Information Science
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------ About --------------------------->
+    <div id="about" class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/programmer-icon.png" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I am currently pursuing a Bachelor's degree in Information Science
+            at the University of Maryland, College Park. I am passionate about
+            technology, coding, and exploring new innovations in the field of
+            information science.
+          </p>
+          <p>
+            Throughout my academic journey, I have gained experience in web
+            development, data analysis, and user experience design. I enjoy
+            collaborating with others and solving complex problems using
+            technology.
+          </p>
+          <p>
+            Apart from academics, I am an Adobe Student Ambassador, promoting
+            digital literacy and creativity among my peers.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web Interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li><span>App Development</span><br />Building Android App</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2021 - Current</span><br />UI/UX Design</li>
+                <li><span>2019 - 2021</span><br />Team lead</li>
+                <li><span>2016-2017</span><br />Communication</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2016</span><br />UI/UX Design Training</li>
+                <li><span>2016</span><br />Masters</li>
+                <li><span>2014</span><br />High School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------Services---------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Description Description Description Description Description
+              Description Description Description Description
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI UX Design</h2>
+            <p>
+              Description Description Description Description Description
+              Description Description Description
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Description Description Description Description Description
+              Description Description Description
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------Portfolio----------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/coding.avif" />
+            <div class="layer">
+              <h3>Social Media</h3>
+              <p>Description Description</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/laptop.avif" />
+            <div class="layer">
+              <h3>Games</h3>
+              <p>Description Description</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/comp-code.avif" />
+            <div class="layer">
+              <h3>More Apps</h3>
+              <p>Description Description</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- -----------------Contact-------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> sai.seyyadri@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 603-943-1230</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="images/Sai_Resume.pdf" download class="btn btn 2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email"name="Email"placeholder="Your Email"required/>
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class = "btn btn2">Submit</button>
+            </form>
+            <span id = "msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Sai</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        document
+          .querySelector(`[onclick="opentab('${tabname}')"]`)
+          .classList.add("active-link");
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzZi4buUhO4-RWOCDk0P8LZYC7puR0RLrGIuJNwzDqZYcOT23lgd8boEZ4CP7mdOH8x5A/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Thank you for reaching out! I have received your message and will get back to you as soon as possible!"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },9000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
