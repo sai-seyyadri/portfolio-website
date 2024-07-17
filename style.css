@@ -9,14 +9,16 @@ html{
     scroll-behavior: smooth;
 }
 body {
-  background: #080808;
-  color: white;
+  background-image: url('images/grey-triangles.jpg');
+  background-repeat: repeat; /* Repeat the image */
+  background-size: 100%; /* Keep the original size */
+  background-attachment: fixed; /* Fix the background during scroll */
+  color: white; /* Text color */
 }
+
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(images/orange_geometric.avif);
-  background-size: cover;
   background-position: center;
 }
 .container {
@@ -61,8 +63,9 @@ nav ul li a:hover::after {
   font-size: 30px;
 }
 .header-text h1 {
-  font-size: 60px;
+  font-size: 80px;
   margin-top: 20px;
+  color:#e7e7e7
 }
 .header-text h1 span {
   color: #ff004f;
@@ -340,4 +343,10 @@ form .btn2{
     color:#61b752;
     margin-top: 20px;
     display: block;
+}
+
+#typed-text {
+  color: rgb(255, 90, 90);
+  font-weight: 550; /* This makes the text not bold */
+  font-family: 'Roboto', sans-serif; /* Change this to any cool font you prefer */
 }
